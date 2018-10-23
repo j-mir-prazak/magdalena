@@ -81,6 +81,7 @@ function looping {
                       then
                         volume=-2000
                     fi
+                    echo "volume: $volume"
 
                     omxplayer.bin -b -o both --vol "$volume" "$entry" > /dev/null &
                     PROC1=$!
