@@ -79,7 +79,7 @@ function looping {
                         volume=-300
                     elif [ "$time" == "night" ]
                       then
-                        volume=-2000
+                        volume=-1200
                     fi
                     echo "volume: $volume"
 
