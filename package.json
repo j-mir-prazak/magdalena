@@ -1,0 +1,23 @@
+{
+  "name": "VALVE",
+  "version": "0.0.0",
+  "description": "arduino input (encoders) controlling instances of omxplayer (testing with mplayer)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "j.mir.prazak",
+  "license": "gnu",
+  "dependencies": {
+    "node-omxplayer": "^0.6.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "omxplayer",
+    "arduino",
+    "raspberry",
+    "pi",
+    "nodejs",
+    "bash"
+  ]
+}
