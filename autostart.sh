@@ -1,5 +1,6 @@
 #!/bin/bash
-cd /home/pi/valve
+CURDIR=$(dirname $0)
+cd "$CURDIR"
 
 MAINPID=$$
 

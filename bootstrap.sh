@@ -4,7 +4,9 @@ echo -e "-----------------------------"
 echo -e "          BOOTSTRAP.         "
 echo -e "-----------------------------"
 
-cd /home/pi/valve
+CURDIR=$(dirname $0)
+cd "$CURDIR"
+
 chmod 0777 -R *
 
 import_folder="rpi_update"
