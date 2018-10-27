@@ -83,7 +83,7 @@ function looping {
                     fi
                     echo "volume: $volume"
 
-                    omxplayer.bin -b -o both --vol "$volume" "$entry" > /dev/null &
+                    omxplayer.bin -b -o local --vol "$volume" "$entry" > /dev/null &
                     PROC1=$!
                     trap 'kill -SIGTRAP $PROC1 2>/dev/null; trap SIGTERM; break; terminate' SIGTERM
                     trap 'kill -SIGTERM $PROC1 2>/dev/null; trap SIGTERM; break; terminate' SIGTERM
